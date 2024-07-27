@@ -5,6 +5,7 @@ function searchCertificate() {
 
     if (certificate) {
         resultDiv.innerHTML = `
+            <img src="${certificate.imageUrl}" alt="Imagen del certificado" style="max-width: 100%; height: auto;">
             <p><strong></strong> ${certificate.owner}</p>
             <p><strong>Course:</strong> ${certificate.course}</p>
             <p><strong>Issue Date:</strong> ${certificate.issueDate}</p>
